@@ -1,8 +1,8 @@
 {
-  "name": "Tritschler_et_al_MolMet_2022",
+  "name": "Elgamal_et_al_Diabetes_2023_ND_subset",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vandydata.github.io/vitessce-Tritschler_et_al_MolMet_2022/",
+  "homepage": "https://vandydata.github.io/vitessce-Elgamal_et_al_Diabetes_2023_ND_subset/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
