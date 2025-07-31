@@ -1,11 +1,11 @@
 export const myViewConfig = {
-    "name": "Tritschler_et_al_MolMet_2022",
+    "name": "Elgamal_ND_subset",
     "version": "1.0.4",
     "description": "",
     "datasets": [
           {
               "uid": "A", 
-              "name": "Tritschler et al, Mol Met 2022", 
+              "name": "Elgamal_ND_subset", 
               "files": [
                   {
                       "fileType": "anndata.zarr", 
@@ -25,26 +25,26 @@ export const myViewConfig = {
                           ], 
                           "obsSets": [
                               {
-                                  "name": "CellType", 
-                                  "path": "obs/cell_type"
+                                "name": "Cell Type",
+                                "path": "obs/Cell_Type"
                               },
                               {
-                                "name": "Disease Status", 
-                                "path": "obs/disease"
+                                "name": "Cell Type Grouped",
+                                "path": "obs/Cell_Type_Grouped"
                               },
                               {
-                                "name": "Sex", 
-                                "path": "obs/sex"
+                                "name": "Library",
+                                "path": "obs/Library"
                               },
                               {
-                                "name": "Ethnicity", 
-                                "path": "obs/self_reported_ethnicity"
+                                "name": "Diabetes Status",
+                                "path": "obs/Diabetes_Status"
                               },
                               {
-                                "name": "BMI", 
-                                "path": "obs/BMI"
+                                "name": "Sex",
+                                "path": "obs/Sex"
                               }
-                          ],
+                            ],
                           "obsFeatureMatrix": {
                               "path": "X"
                           }
