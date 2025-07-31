@@ -1,6 +1,6 @@
 export const myViewConfig = {
     "name": "Tritschler_et_al_MolMet_2022",
-    "version": "1.0.4",
+    "version": "1.0.15",
     "description": "",
     "datasets": [
           {
@@ -9,7 +9,7 @@ export const myViewConfig = {
               "files": [
                   {
                       "fileType": "anndata.zarr", 
-                      "url": "https://cds-pancreatlas-public.s3.amazonaws.com/Tritschler_et_al_MolMet_2022_human_islets.20250729.zarr/", 
+                      "url": "https://cds-pancreatlas-public.s3.amazonaws.com/Elgamal_ND_subset.20250731.zarr/", 
                       "options": {
                           "obsEmbedding": [
                               {
