@@ -1,8 +1,8 @@
 # Vitessce OMICS Viewer Template
 
-[![Deploy](https://github.com/vandydata/vitessce-Elgamal_et_al_Diabetes_2023_ND_subset/actions/workflows/deploy.yml/badge.svg)](https://github.com/vandydata/vitessce-Elgamal_et_al_Diabetes_2023_ND_subset/actions/workflows/deploy.yml)
+[![Deploy](https://github.com/vandydata/Vitessce-Ha-Pankbase-ND-subset/actions/workflows/deploy.yml/badge.svg)](https://github.com/vandydata/Vitessce-Ha-Pankbase-ND-subset/actions/workflows/deploy.yml)
 
-Forked on 2025-07-31
+Forked on 2025-08-04
 
 Working repo and Github pages build for the VITESSCE OMICS Viewer, leveraging objects storage in AWS S3.
 
