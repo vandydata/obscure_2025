@@ -1,4 +1,4 @@
-{
+export const myViewConfig = {
   "version": "1.0.4",
   "name": "Ha_2025_ND_subset",
   "description": "",
