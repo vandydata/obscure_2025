@@ -1,8 +1,8 @@
 {
-  "name": "Elgamal_et_al_Diabetes_2023_ND_subset",
+  "name": "Vitessce-Ha-Pankbase-ND-subset",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vandydata.github.io/vitessce-Elgamal_et_al_Diabetes_2023_ND_subset/",
+  "homepage": "https://vandydata.github.io/Vitessce-Ha-Pankbase-ND-subset/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
