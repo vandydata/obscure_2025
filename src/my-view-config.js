@@ -23,8 +23,8 @@ export const myViewConfig = {
             ],
             "obsSets": [
               {
-                "name": "Cell Type",
-                "path": "obs/orig.ident"
+                "name": "Sample",
+                "path": "obs/samp"
               },
               {
                 "name": "SCT_snn_res.0.8",
