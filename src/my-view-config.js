@@ -24,19 +24,15 @@ export const myViewConfig = {
             "obsSets": [
               {
                 "name": "Cell Type",
-                "path": "obs/idents_orig"
+                "path": "obs/orig.ident"
               },
               {
-                "name": "Source",
-                "path": "obs/Source"
+                "name": "SCT_snn_res.0.8",
+                "path": "obs/SCT_snn_res.0.8"
               },
               {
-                "name": "Diabetes Status",
-                "path": "obs/diabetes_status_description"
-              },
-              {
-                "name": "Sex",
-                "path": "obs/Reported_gender"
+                "name": "seurat_clusters",
+                "path": "obs/seurat_clusters"
               }
             ],
             "obsFeatureMatrix": {
