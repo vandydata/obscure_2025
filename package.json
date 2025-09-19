@@ -1,8 +1,8 @@
 {
-  "name": "Vitessce-Ha-Pankbase-ND-subset",
+  "name": "obscure_2025",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vandydata.github.io/Vitessce-Ha-Pankbase-ND-subset/",
+  "homepage": "https://vandydata.github.io/obscure_2025/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
