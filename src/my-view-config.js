@@ -1,15 +1,15 @@
 export const myViewConfig = {
   "version": "1.0.4",
-  "name": "Ha_2025_ND_subset",
+  "name": "sctransform.rna.20250918",
   "description": "",
   "datasets": [
     {
       "uid": "A",
-      "name": "Ha_2025_ND_subset",
+      "name": "sctransform.rna.20250918",
       "files": [
         {
           "fileType": "anndata.zarr",
-          "url": "https://cds-pancreatlas-public.s3.amazonaws.com/Ha_2025_ND_subset.20250804.zarr",
+          "url": "https://cds-pancreatlas-public.s3.amazonaws.com/sctransform.rna.20250918.zarr",
           "options": {
             "obsEmbedding": [
               {
