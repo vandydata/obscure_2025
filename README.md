@@ -39,4 +39,4 @@ Working repo and Github pages build for the VITESSCE OMICS Viewer, leveraging ob
    - [ ]  Settings > Pages > Source > Change to Github Actions
    - [ ]  Wait for build, then get Settings > Pages > URL, and copy/paste it into main page description area
 4. Test
-5. Add URL to metadata loader
+5. Add URL to metadata loader\
