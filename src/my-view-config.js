@@ -31,10 +31,6 @@ export const myViewConfig = {
                 "path": "obs/coarse_annot"
               },
               {
-                "name": "Sample",
-                "path": "obs/samples"
-              },
-              {
                 "name": "Sex",
                 "path": "obs/sex"
               },
@@ -49,10 +45,6 @@ export const myViewConfig = {
               {
                 "name": "Seurat Clusters",
                 "path": "obs/seurat_clusters"
-              },
-              {
-                "name": "% mito",
-                "path": "obs/rna_pct_mitochondrial"
               }
             ],
             "obsFeatureMatrix": {
