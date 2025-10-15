@@ -1,15 +1,15 @@
 export const myViewConfig = {
   "version": "1.0.4",
-  "name": "sctransform.rna.20250918",
+  "name": "20251014_seurat-v5_harmony_sample-rmDblts_res0.8.20251015",
   "description": "",
   "datasets": [
     {
       "uid": "A",
-      "name": "sctransform.rna.20250918",
+      "name": "20251014_seurat-v5_harmony_sample-rmDblts_res0.8.20251015.zarr",
       "files": [
         {
           "fileType": "anndata.zarr",
-          "url": "https://cds-pancreatlas-public.s3.amazonaws.com/sctransform.rna.20250918.zarr",
+          "url": "https://cds-pancreatlas-public.s3.amazonaws.com/20251014_seurat-v5_harmony_sample-rmDblts_res0.8.20251015.zarr",
           "options": {
             "obsEmbedding": [
               {
@@ -24,15 +24,35 @@ export const myViewConfig = {
             "obsSets": [
               {
                 "name": "Sample",
-                "path": "obs/samp"
+                "path": "obs/samples"
               },
               {
-                "name": "SCT_snn_res.0.8",
-                "path": "obs/SCT_snn_res.0.8"
+                "name": "Cell Type",
+                "path": "obs/coarse_annot"
               },
               {
-                "name": "seurat_clusters",
+                "name": "Sample",
+                "path": "obs/samples"
+              },
+              {
+                "name": "Sex",
+                "path": "obs/sex"
+              },
+              {
+                "name": "Age",
+                "path": "obs/age"
+              },
+              {
+                "name": "Group",
+                "path": "obs/group"
+              },
+              {
+                "name": "Seurat Clusters",
                 "path": "obs/seurat_clusters"
+              },
+              {
+                "name": "% mito",
+                "path": "obs/rna_pct_mitochondrial"
               }
             ],
             "obsFeatureMatrix": {
