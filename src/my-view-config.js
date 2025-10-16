@@ -15,12 +15,7 @@ export const myViewConfig = {
               {
                 "path": "obsm/X_umap",
                 "dims": [0, 1],
-                "embeddingType": "UMAP_1_2"
-              },
-              {
-                "path": "obsm/X_umap", 
-                "dims": [1, 2],
-                "embeddingType": "UMAP_2_3"
+                "embeddingType": "UMAP"
               }
             ],
             "obsSets": [
@@ -62,8 +57,7 @@ export const myViewConfig = {
       "A": "A"
     },
     "embeddingType": {
-      "A": "UMAP_1_2",
-      "B": "UMAP_2_3"
+      "A": "UMAP"
     }
   },
   "layout": [
@@ -75,18 +69,7 @@ export const myViewConfig = {
       },
       "x": 0,
       "y": 0,
-      "w": 3,
-      "h": 6
-    },
-    {
-      "component": "scatterplot",
-      "coordinationScopes": {
-        "dataset": "A",
-        "embeddingType": "B"
-      },
-      "x": 3,
-      "y": 0,
-      "w": 3,
+      "w": 6,
       "h": 6
     },
     {
