@@ -1,15 +1,15 @@
 export const myViewConfig = {
   "version": "1.0.4",
-  "name": "20251014_seurat-v5_harmony_sample-rmDblts_res0.8.20251015",
+  "name": "20260130_rna_harmony_coarse-subclusters.20260204.zarr",
   "description": "",
   "datasets": [
     {
       "uid": "A",
-      "name": "20251014_seurat-v5_harmony_sample-rmDblts_res0.8.20251015.zarr",
+      "name": "20260130_rna_harmony_coarse-subclusters.20260204.zarr",
       "files": [
         {
           "fileType": "anndata.zarr",
-          "url": "https://cds-pancreatlas-public.s3.amazonaws.com/20251014_seurat-v5_harmony_sample-rmDblts_res0.8.20251015.zarr",
+          "url": "https://cds-pancreatlas-public.s3.amazonaws.com/20260130_rna_harmony_coarse-subclusters.20260204.zarr",
           "options": {
             "obsEmbedding": [
               {
@@ -20,12 +20,24 @@ export const myViewConfig = {
             ],
             "obsSets": [
               {
-                "name": "Sample",
+                "name": "Coarse Annotation",
+                "path": "obs/coarse_annot"
+              },
+              {
+                "name": "Endocrine subset coarse anno",
+                "path": "obs/endocrine_coarse_subclusters"
+              },
+              {
+                "name": "Immune subset coarse anno",
+                "path": "obs/immune_coarse_subclusters"
+              },
+              {
+                "name": "Samples",
                 "path": "obs/samples"
               },
               {
-                "name": "Cell Type",
-                "path": "obs/coarse_annot"
+                "name": "hdl_id",
+                "path": "obs/hdl_id"
               },
               {
                 "name": "Sex",
