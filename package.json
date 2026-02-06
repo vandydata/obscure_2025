@@ -1,8 +1,8 @@
 {
-  "name": "obscure_2025",
+  "name": "obscure_2026",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vandydata.github.io/obscure_2025/",
+  "homepage": "https://vandydata.github.io/obscure_2026/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
