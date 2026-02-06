@@ -1,15 +1,17 @@
-# obscure_2025 - Vitessce OMICS Viewer repo
+# obscure_2026 - Vitessce OMICS Viewer repo
 
 [![Deploy](https://github.com/vandydata/obscure_2025/actions/workflows/deploy.yml/badge.svg)](https://github.com/vandydata/obscure_2025/actions/workflows/deploy.yml)
 
 Forked on 2025-09-18
+
+Updated on 2026-02-05 with data revisions
 
 Working repo and Github pages build for the VITESSCE OMICS Viewer, leveraging objects storage in AWS S3.
 
 ## Data source & preparation
 
 1. CDS project 2024-349
-2. `src/obscure_2025/...` to prepare object. Input : Ha/Globus)
+2. `src/15-obscure_...` to prepare object. Input : (Ha/Globus)
 4. `03-vitessce-build-h5-from-seurat.R` to convert RDS to H5AD
 5. `04-vitessce-build-zarr-and-config.py` to convert H5AD to Zarr
 6. `05-transfer-zarr-to-aws.sh` to upload Zarr to S3 bucket
